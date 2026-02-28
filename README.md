@@ -121,8 +121,8 @@ Berikut widget yang digunakan dalam aplikasi berdasarkan kode:
 - CircleAvatar → Menampilkan gambar/profil berbentuk lingkaran.
 - AlertDialog → Popup dialog (konfirmasi/info).
 - SnackBar → Notifikasi singkat di bawah layar.
+- InkWell → Memberi efek klik (ripple) pada widget.
 
-InkWell → Memberi efek klik (ripple) pada widget.
 **State Management**
 - StatefulWidget → Widget yang bisa berubah (punya state).
 - setState() → Mengupdate tampilan saat data berubah.
