@@ -87,6 +87,7 @@ Setelah laporan dihapus di bagian bawah layar muncul notifikasi berupa SnackBar 
 
 ## Widget Yang Digunakan
 Berikut widget yang digunakan dalam aplikasi berdasarkan kode:
+
 **Struktur & Layout**
 - MaterialApp → Widget utama untuk mengatur tema, routing, dan struktur dasar aplikasi.
 - Scaffold → Kerangka halaman (punya AppBar, body, drawer, dll).
