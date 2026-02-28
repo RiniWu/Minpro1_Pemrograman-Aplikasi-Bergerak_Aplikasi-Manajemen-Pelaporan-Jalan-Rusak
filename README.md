@@ -88,40 +88,40 @@ Setelah laporan dihapus di bagian bawah layar muncul notifikasi berupa SnackBar 
 ## Widget Yang Digunakan
 Berikut widget yang digunakan dalam aplikasi berdasarkan kode:
 **Struktur & Layout**
-- MaterialApp
-- Scaffold
-- AppBar
-- Container
-- Column
-- Row
-- Padding
-- SizedBox
-- SingleChildScrollView
-- ListView
-- Wrap
+- MaterialApp → Widget utama untuk mengatur tema, routing, dan struktur dasar aplikasi.
+- Scaffold → Kerangka halaman (punya AppBar, body, drawer, dll).
+- AppBar → Bar di bagian atas aplikasi (judul, icon, dll).
+- Container → Pembungkus widget untuk styling (warna, margin, padding, ukuran).
+- Column → Menyusun widget secara vertikal (atas ke bawah).
+- Row → Menyusun widget secara horizontal (kiri ke kanan).
+- Padding → Memberi jarak di dalam widget.
+- SizedBox → Memberi jarak atau ukuran tetap.
+- SingleChildScrollView → Membuat 1 widget agar bisa di-scroll.
+- ListView → Menampilkan daftar yang bisa di-scroll (list panjang).
+- Wrap → Menyusun widget otomatis pindah baris jika penuh.
 
 **Input & Form**
-- Form
-- GlobalKey<FormState>
-- TextFormField
-- DropdownButtonFormField
-- TextEditingController
+- Form → Wadah untuk mengelola input (validasi, submit).
+- GlobalKey<FormState> → Mengontrol dan validasi Form.
+- TextFormField → Input teks + validasi.
+- DropdownButtonFormField → Input pilihan (dropdown).
+- TextEditingController → Mengambil dan mengontrol isi TextField.
 
 **Navigasi**
-- Navigator.push()
-- Navigator.pop()
-- MaterialPageRoute
+- Navigator.push() → Pindah ke halaman baru.
+- Navigator.pop() → Kembali ke halaman sebelumnya.
+- MaterialPageRoute → Membungkus halaman tujuan saat navigasi.
 
 **Tampilan & Interaksi**
-- ElevatedButton
-- TextButton
-- Icon
-- IconButton
-- CircleAvatar
-- AlertDialog
-- SnackBar
-- InkWell
+- ElevatedButton → Tombol dengan efek timbul (utama).
+- TextButton → Tombol tanpa background (ringan).
+- Icon → Menampilkan ikon.
+- IconButton → Tombol berbentuk ikon.
+- CircleAvatar → Menampilkan gambar/profil berbentuk lingkaran.
+- AlertDialog → Popup dialog (konfirmasi/info).
+- SnackBar → Notifikasi singkat di bawah layar.
 
+InkWell → Memberi efek klik (ripple) pada widget.
 **State Management**
-- StatefulWidget
-- setState()
+- StatefulWidget → Widget yang bisa berubah (punya state).
+- setState() → Mengupdate tampilan saat data berubah.
